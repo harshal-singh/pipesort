@@ -1,0 +1,23 @@
+.Products__container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.Products__controllers {
+  margin: 24px 0;
+}
+
+.Categories button:not(:last-child) {
+  margin-right: 12px;
+}
+
+.Categories .active {
+  color: white;
+  background-color: darkslategray;
+}
+
+.Products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
+  grid-gap: 28px;
+}

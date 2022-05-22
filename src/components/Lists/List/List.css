@@ -1,0 +1,19 @@
+.List {
+  min-width: 25%;
+  max-width: 50%;
+  margin: 24px auto;
+  padding: 12px 28px;
+  display: flex;
+  align-items: center;
+  border: 1px solid silver;
+}
+
+.User__id {
+  margin-right: 28px;
+}
+
+.User__name h4 {
+  color: gray;
+  font-weight: normal;
+  text-transform: lowercase;
+}

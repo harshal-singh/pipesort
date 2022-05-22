@@ -1,0 +1,14 @@
+.steps > span {
+  position: relative;
+  margin: 0 48px;
+}
+.steps > span:not(:last-child):after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translate(50%, -50%);
+  width: 48px;
+  height: 2px;
+  background-color: gainsboro;
+}
